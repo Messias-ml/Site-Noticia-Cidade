@@ -1,0 +1,291 @@
+body {
+	font-family: Arial, Verdana, sans-serif;
+}
+#fundomenu {
+	background: url('fundo.png');
+	height: 233px;
+}
+#logo {border: 0px solid red;
+width: 200px;
+height: 100px;
+position: relative;
+left: 300px;
+top: 45px;}
+#logo h4 { border: 0px solid white;
+color: white;
+text-align: center;}
+
+
+  #fundomenu ul {text-decoration: none;
+ 	position: absolute;
+	display: inline;
+background: #A80202;
+position: relative;
+left: 290px;
+top:45px; 
+padding: 12px 16px;
+z-index: 2;}
+ #fundomenu li { text-decoration-style: none;
+ display: inline; }
+  #fundomenu li a {
+	margin:0px;
+	text-decoration: none;
+	color: white;
+padding: 12px;
+}
+.divisor
+{background: url('divisor.png') no-repeat right;}
+#fundomenu ul a:hover { color: gray;
+}
+#detalhe-topo { position: absolute;
+	right: 340px;
+	top: 16px;
+ }
+#home #fundomenu .home {background: #FC0101;
+ 	color: white;
+ 	margin-left: -16px;
+ padding: 12px 16px;}
+
+#conteudo { border: 0px solid red;
+width: 710px;
+position: absolute;
+left: 290px;
+margin:20px;}
+#entrevistas { border: 0px solid blue;
+	position: relative;
+	top: 2px;
+	width: 140px;
+margin-right: 20px;
+padding-right: 5px;
+float: left;
+}
+
+
+#entrevistas h2 {background: #09026E;
+color: white;
+font-size: 20px;
+padding: 5px;  
+margin-right: -5px;
+position: relative;
+bottom: 20px;}
+#entrevistas ul { border: 0px solid red;
+	margin: 20px;
+	position: relative;
+	right: 20px;
+	margin-right: -27px;
+	margin-top: -20px;
+}
+#entrevistas li {border:0px solid black;
+	padding: 0px;
+text-align: left;
+list-style-type: none;
+margin-left: -45px;
+
+}
+#entrevistas li a { text-decoration:none;
+color:black;
+border: 0px solid red;
+padding: 10px;
+margin-right: -20px;
+position:relative;
+right: 2px;
+display: block;
+
+ }
+#entrevistas li:hover {background: url('marcador.png') no-repeat left;
+text-align:center;
+cursor: pointer;}
+#entrevistas li a:hover {color: gray;}
+#mundo {border: 0px solid blue;
+	width: 240px;
+height: 360px;
+float: center;
+position: relative;
+left: 180px;
+bottom: 180px;
+}
+#recentes {border: 0px solid blue;
+	width: 240px;
+height: 360px;
+float: right;
+position: relative;
+bottom: 560px;}
+#recentes h2 {border: 0px solid black;
+padding: 5px 0px;
+position: relative;
+bottom: 20px;
+color:white;
+	background:#09026E;
+margin-bottom: 3px;}
+#contrecentes {border: 0px solid yellow;
+width: 235px;
+	height: 300px;
+position: relative;
+bottom: 3px;
+left: 3px;
+font-size: 10px;}
+#contrecentes img {width: 100px;}
+.restxt {border: 0px solid black;
+width:131px;
+height: 65px;
+float: right;
+position: relative;}
+.restxt a {color:#00BFFF;
+text-decoration: none;
+position: relative;
+left: 4px;}
+.restxt p {
+	position: relative;
+	bottom:8px;
+}
+#estruturarecentes {border: 0px solid blue;
+width: 233px;
+height: 65px;
+margin-bottom: 11px;}
+#mundo h2 {border: 0px solid black;
+padding: 5px 0px;
+position: relative;
+bottom: 20px;
+color:white;
+	background:#09026E;
+margin-bottom: 3px;}
+
+
+#contmundo {border: 0px solid yellow;
+width: 235px;
+	height: 300px;
+position: relative;
+bottom: 3px;
+left: 3px;
+font-size: 10px;}
+.imgtext {border: 0px solid black;
+width:132px;
+height: 65px;
+float: right;
+position: relative;
+}
+#estruturamundo {border: 0px solid blue;
+width: 234px;
+height: 65px;
+margin-bottom: 12px;}
+#contmundo img {width: 100px;}
+.imgtext a {color:#00BFFF;
+text-decoration: none;
+position: relative;
+left: 4px;}
+.imgtext p {
+	position: relative;
+	bottom:8px;
+}
+
+#ultimaentrevista {border: 0px solid red;
+width: 240px;
+height: 320px;
+position: relative;
+left: 180px;
+bottom: 2px;}
+#ultimaentrevista h2 {border: 0px solid black;
+display: inline-block;
+padding-right: 44.5px;
+padding-top: 2px;
+padding-bottom: 2px;
+	position:relative;
+	bottom: 388px;
+	right: 0px;
+	color:white;
+	background:#09026E;}
+.felipe {border: 0px solid yellow;
+	position: absolute;
+	bottom: 0px;
+	width: 238px;
+	height: 270px;
+}
+.felipe h4 {border: 0px solid black;
+font-size: 16px;
+display: inline;
+position: relative;
+bottom: 0px;
+padding-top: 3px;
+padding-bottom: 3px;
+padding-right: 1px;
+margin-left: 0px;
+background: #A80202;
+letter-spacing:-0.1em;
+}
+#ultimaentrevista img {width: 230px;
+position: relative;
+top: 18px;
+margin-bottom: 2px;}
+#ultimaentrevista .felipe a {color:#F10152; position: relative;
+bottom: 15px;}
+#ultimaentrevista .felipe a:hover {color:#FD0004;}
+
+#destaque {border: 0px solid red;
+width: 240px;
+height: 320px;
+float: right;
+position: relative;
+bottom:320px;}
+#destaque h2 {position: relative;
+border: 0px solid red;
+bottom: 20px;
+padding: 3px 0px;
+color: white;
+background: #09026E;}
+#conteudodestaque
+{border: 0px solid yellow;
+	position: relative;
+	bottom: 30px;
+	left: 5px;
+	width: 233px;
+	height: 275px;
+}
+#conteudodestaque h4 {border: 0px solid blue;
+display: inline;
+position: relative;
+top: 5px;
+padding: 5px 0px;
+color: white;
+background: #A80202;}
+#conteudodestaque img { width: 235px;
+position:relative;
+top: 18px;
+}
+#conteudodestaque a {color:#F10152; position: relative;
+bottom: 10px;}
+#conteudodestaque a:hover {color:#FD0004;}
+#news {border: 0px solid red;
+	width: 140px;
+position: relative;
+top: 50px;
+left: 0px;}
+#news h2 {border: 0px solid red;
+	background: #09026E;
+color: white;
+font-size: 20px;
+padding: 5px;
+padding-right: 82px;
+display: inline;
+position: relative;
+bottom: 43px;
+}
+#contnews {border: 0px solid yellow;
+width: 133px;
+position: relative;
+bottom: 18px;
+left: 5px;}
+input {width: 125px;
+padding: 5px 0px;
+margin:5px;
+position: relative;
+right: 2px;}
+.cadastro input { border: 1px solid #A80202;
+	background:#A80202;
+color: white;
+font-size: 18px;
+font-weight: bold;
+cursor: pointer; }
+.cadastro input:hover {background: #FD0004;}
+a:hover {color:
+#08088A
+;}
